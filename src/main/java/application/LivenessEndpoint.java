@@ -23,6 +23,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LivenessEndpoint {
 
+	// jmatos  2123
     @ReadOperation
     public String testLiveness() {
         return "{\"status\":\"UP\"}";
